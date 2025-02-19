@@ -142,3 +142,11 @@ nav a:hover, .active {
 .btn:hover {
     background: cyan;
 }
+
+.game-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
