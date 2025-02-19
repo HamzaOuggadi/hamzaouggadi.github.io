@@ -78,3 +78,67 @@ footer {
     margin-top: 20px;
     box-shadow: 0 0 10px cyan;
 }
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: #222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+nav a:hover, .active {
+    background: cyan;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Resume Page Styling */
+#resume {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #111;
+    box-shadow: 0 0 10px cyan;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#resume h2, h3 {
+    color: cyan;
+}
+
+#resume p, ul {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#resume ul {
+    padding-left: 20px;
+}
+
+/* Resume Download Button */
+.btn {
+    display: inline-block;
+    background: lime;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: cyan;
+}
