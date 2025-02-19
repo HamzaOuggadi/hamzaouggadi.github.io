@@ -149,3 +149,10 @@ nav a:hover, .active {
     display: block;
     margin: 10px auto;
 }
+
+.game-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
