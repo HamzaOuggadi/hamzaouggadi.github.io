@@ -144,7 +144,6 @@ nav a:hover, .active {
 }
 
 .game-card img {
-    width: 100%;
     max-width: 300px;
     border-radius: 10px;
     display: block;
