@@ -1,3 +1,2 @@
 # hamzaouggadi.github.io
-<a href="hamzaouggadi.github.io">Link</a>
-Portfolio
+Portfolio [Link](hamzaouggadi.github.io)
